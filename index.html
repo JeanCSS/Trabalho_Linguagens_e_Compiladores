@@ -1,0 +1,72 @@
+<html><head>
+	<title></title>
+	<script src="script.js"></script>
+	<style>
+
+		body{
+			background-color: rgb(0, 0, 0);
+		}
+		div{
+			border: solid 1px #000;
+			text-align: left;
+			display: block;
+			margin: 10px;
+			padding: 15px;
+		}
+
+		.ioe{
+			display: inline;
+			border: solid 1px #000;
+			margin: 10px;
+			
+		}
+		#scroll{	
+			overflow-x: auto;
+		}
+		#arvore div{	
+			padding: 0px;
+			text-align: center;
+			position: relative;
+			float: left;
+		}
+		#arvore h2{
+			margin: 0;
+			border-radius: 60px;
+			padding: 10px;
+			background-color: antiquewhite;
+		}
+		#arvore h3{
+			margin: 0;
+			padding: 10px;
+			border-radius: 60px;
+			background-color: beige;
+		}
+		#table{
+			padding: 5px;
+			margin: 10px;
+			background-color: rgb(255, 255, 255);
+		}
+		#gramatica{
+			padding: 5px;
+			margin: 10px;
+			background-color: rgb(255, 255, 255);
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<input type="text" id="entrada" value="((3-5)/(6*9))"/>
+		<button onclick="main()">click</button>
+    </div>
+	
+    <div id="table"></div><br/>
+    <div id="gramatica"></div><br/>
+	<div id="scroll">
+		<div id="arvore"></div>
+	</div>
+
+	
+</body>
+
+</html>
